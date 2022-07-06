@@ -41,8 +41,8 @@ body {
   color: #888;
   font-weight: 400;
   font-size: 16px;
-  height: 24px;
-  width: 24px;
+  height: 22px;
+  width: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,4 +63,31 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* solution */
+
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
